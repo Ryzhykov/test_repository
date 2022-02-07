@@ -1,24 +1,20 @@
 "use strict";
 
-//console.log('arr' + '- object');
+const num = 50;
 
-// let incr = 10,
-//     decr = 10;
+// (num == 50) ? console.log('Ok!') : console.log('Error');
 
-// // ++incr;
-// // --decr;
-
-// console.log(++incr);
-// // console.log(incr);
-// console.log(--decr);
-// // console.log(decr);
-
-// console.log(5%2);
-
-// console.log (2 === "2");
-
-
-const isChecked = false,
-      isClose = true;
-
-console.log(isChecked || isClose);
+switch (num) {
+    case 49:
+        console.log('Неверено');
+        break;
+    case 100:
+        console.log('Неверно');
+        break;
+    case 51:
+        console.log('В точку');                
+        break;
+    default:
+        console.log('Не в этот раз');
+        break;        
+}
